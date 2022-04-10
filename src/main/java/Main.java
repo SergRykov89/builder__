@@ -14,7 +14,7 @@ public class Main {
         System.out.println(son.hasAge());
         try {
             new PersonBuilder().build();
-        } catch (IllegalStateException e){
+        } catch (IllegalStateException e) {
             e.printStackTrace();
         }
         try {
